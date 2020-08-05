@@ -1,3 +1,5 @@
+# Words Similarity Grapg
+![Words Similarity Grapg](https://github.com/mrp-78/words-similarity-graph/blob/master/screenshot.png)
 ### [LIVE DEMO](https://elegant-bohr-5ef313.netlify.app/)
 <br />
 
