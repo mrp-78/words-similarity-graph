@@ -7,7 +7,6 @@ export function ForceGraph({ linksData, nodesData, nodeHoverTooltip }) {
 
   React.useEffect(() => {
     let destroyFn;
-
     if (containerRef.current) {
       const { destroy } = runForceGraph(
         containerRef.current,
@@ -17,9 +16,8 @@ export function ForceGraph({ linksData, nodesData, nodeHoverTooltip }) {
       );
       destroyFn = destroy;
     }
-
     return destroyFn;
-  }, []);
+  }, [linksData, nodesData, nodeHoverTooltip]);
 
   return <div ref={containerRef} className="container" />;
 }
