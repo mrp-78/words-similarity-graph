@@ -12,7 +12,7 @@ function App() {
   console.log(nodes);
   return (
     <div className="App">
-      <header className="App-header">Force Graph Example</header>
+      <header className="App-header">Words similarity graph</header>
       <section className="Main">
         <ForceGraph
           linksData={links}
@@ -20,6 +20,10 @@ function App() {
           nodeHoverTooltip={nodeHoverTooltip}
         />
       </section>
+      <div className="bottomright">
+        data collected by<br></br>
+        <a href="https://github.com/nimbo3/Keenbo">nimbo3/Keenbo</a> team
+      </div>
     </div>
   );
 }

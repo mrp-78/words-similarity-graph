@@ -31,6 +31,16 @@ body {
   color: white;
 }
 
+.bottomright {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+  color: #282c34;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
