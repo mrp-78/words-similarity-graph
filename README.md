@@ -1,6 +1,6 @@
 # Words Similarity Graph
 ![Words Similarity Grapg](https://github.com/mrp-78/words-similarity-graph/blob/master/screenshot.png)
-### [LIVE DEMO](https://elegant-bohr-5ef313.netlify.app/)
+### [LIVE DEMO](https://words-similarity-graph.netlify.app/)
 <br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
